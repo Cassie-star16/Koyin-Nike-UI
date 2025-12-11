@@ -9,24 +9,155 @@
   </head>
   <body>
     <div class="min-h-screen bg-gradient-to-br from-red-300 via-purple-400 to-pink-300 py-5">
-      <nav class="flex items-center justify-center">
+      <header class="flex items-center justify-center">
         <ul class="flex-1 text-center">
-          <li class="inline block px-5"><a href="#" class="text-white">Home</a></li>
-          <li class="inline block px-5"><a href="#" class="text-white">About</a></li>
-          <li class="inline block px-5"><a href="#" class="text-white">Features</a></li>
-          <li class="inline block px-5"><a href="#" class="text-white">Contact</a></li>
+          <li class="inline block px-5 hover:underline"><a href="#" class="text-white">Home</a></li>
+          <li class="inline block px-5  hover:underline"><a href="#" class="text-white">About</a></li>
+          <li class="inline block px-5  hover:underline"><a href="#" class="text-white">Features</a></li>
+          <li class="inline block px-5  hover:underline"><a href="#" class="text-white">Contact</a></li>
         </ul>
-      </nav>
-
+      </header>
 
       <div class="flex flex-col items-center justify-center mt-10">
         <h1 class="text-5xl font-bold text-white mb-6">Welcome to Nike</h1>
         <p class="text-lg text-white mb-8 text-center max-w-xl">Discover the latest in athletic footwear, apparel, and equipment. Elevate your performance with Nike's innovative designs and cutting-edge technology.</p>
-        <a href="#" class="bg-white text-red-500 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">Shop Now</a>
      </div>
 
-     <div>
+      <section class="mt-16 px-8">
+        <h2 class="text-3xl font-bold text-white mb-6 text-center">Our Features</h2>
+        <div class="grid grid-cols md:grid-cols-3 gap-8">
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg text-center">
+            <h3 class="text-xl font-semibold text-white mb-4">Innovative Design</h3>
+            <p class="text-white">Experience cutting-edge designs that enhance performance and style.</p>
+          </div>
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg text-center">
+            <h3 class="text-xl font-semibold text-white mb-4">Sustainable Materials</h3>
+            <p class="text-white">Committed to using eco-friendly materials in our products.</p>
+          </div>
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg text-center">
+            <h3 class="text-xl font-semibold text-white mb-4">Community Engagement</h3>
+            <p class="text-white">Building a stronger community through sports and activities.</p>
+          </div>
+        </div>
 
+        <div class="flex mt-10 sm:space-x-3 md:space-x-4 justify-center"> 
+         <div>
+           <button href="#" class="bg-white text-red-500 font-semibold sm:px-3 sm:py-1 md:px-6 md:py-3 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">View Products</button>
+         </div>
+
+         <div>
+           <button href="#" class="bg-white text-red-500 font-semibold sm:px-3 sm:py-1 md:px-6 md:py-3 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">Explore Features</button>
+         </div>
+
+         <div>
+           <button href="#" class="bg-white text-red-500 font-semibold sm:px-3 sm:py-1 md:px-6 md:py-3 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">Learn More</button>
+         </div>
+        </div>
+
+      </section>
+
+      <section class="mt-16 px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Join Our Newsletter</h2>
+        <p class="text-lg text-white mb-4">Stay updated with the latest news and exclusive offers from Nike.</p>
+          
+        <form class="flex justify-center">
+          <input type="email" placeholder="Enter your email" class="px-2 py-2 rounded-l-full focus:outline-none" />
+          <button type="submit" class="bg-white text-red-500 font-semibold px-2 py-2 rounded-r-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">Subscribe</button>
+        </form>
+      </section>
+
+      <section class="mt-16 px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Customer Testimonials</h2>
+        <div class="grid grid-cols md:grid-cols-2 gap-8">
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg">
+            <p class="text-white italic">"Nike's products have transformed my athletic performance. The quality and design are unmatched!"</p>
+            <h3 class="text-white font-semibold mt-4">- Alex M.</h3>
+          </div>
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg">
+            <p class="text-white italic">"I love Nike's commitment to sustainability. It's great to see a brand that cares about the environment."</p>
+            <h3 class="text-white font-semibold mt-4">- Jamie L.</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-16 px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Upcoming Events</h2>
+        <div class="grid grid-cols md:grid-cols-2 gap-8">
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold text-white mb-4">Marathon Training Camp</h3>
+            <p class="text-white">Join us for a week-long training camp to prepare for your next marathon.</p>
+            <p class="text-white mt-2"><strong>Date:</strong> July 15-21, 2024</p>
+          </div>
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold text-white mb-4">Sustainability Workshop</h3>
+            <p class="text-white">Learn about Nike's sustainability initiatives and how you can contribute.</p>
+            <p class="text-white mt-2"><strong>Date:</strong> August 10, 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-16 px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Meet Our Athletes</h2>
+        <div class="grid grid-cols md:grid-cols-3 gap-8">
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold text-white mb-4">Serena Williams</h3>
+            <p class="text-white">Tennis Champion and Nike Ambassador.</p>
+          </div>
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold text-white mb-4">LeBron James</h3>
+            <p class="text-white">NBA Superstar and Nike Athlete.</p>
+          </div>
+          <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold text-white mb-4">Cristiano Ronaldo</h3>
+            <p class="text-white">Football Legend and Nike Partner.</p>
+          </div>
+        </div> 
+      </section>
+
+      <section class="mt-16 px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Nike Innovation Lab</h2>
+        <p class="text-lg text-white mb-4">Discover the technology and innovation behind Nike's products.</p>
+        <a href="#" class="bg-white text-red-500 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">Explore the Lab</a>
+      </section>
+
+      <section class="mt-16 px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Career Opportunities</h2>
+        <p class="text-lg text-white mb-4">Join the Nike team and be part of a global leader in sportswear.</p>
+        <a href="#" class="bg-white text-red-500 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">View Open Positions</a>
+      </section>
+
+      <section class="mt-16 px-8 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Nike Membership</h2>
+        <p class="text-lg text-white mb-4">Join Nike Membership for exclusive benefits, products, and events.</p>
+        <a href="#" class="bg-white text-red-500 font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 hover:border-red-500 hover: border">Join Now</a>
+      </section>
+
+     <div>
+      <footer class="mt-20 text-white grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-4 px-8">
+        <ul class="grid grid-cols mb-4">
+          <h2 class="font-bold texl-xl text-align mb-2">Support</h2>
+          <li class="hover:underline"><a href="#" class="text-white">FAQ</a></li>
+          <li class="hover:underline"><a href="#" class="text-white">Download Nike App</a></li>
+          <li class="hover:underline"><a href="#" class="text-white">Store Locator</a></li>
+          <li class="hover:underline"><a href="#" class="text-white">Customer Support</a></li>
+        </ul>
+
+        <ul class="grid grid-cols mb-4">
+          <h2 class="font-bold texl-xl align-text mb-2">Legal</h2>
+          <li class="hover:underline"><a href="#" class="text-white">Terms of Service</a></li>
+          <li class="hover:underline"><a href="#" class="text-white">Privacy Policy</a></li>
+          <li class="hover:underline"><a href="#" class="text-white">License</a></li>
+        </ul>
+
+        <ul class="grid grid-cols mb-4">
+          <h2 class="font-bold texl-xl text-align mb-2">Follow Our Socials</h2>
+          <li class="hover:underline"><a href="#" class="text-white">Facebook</a></li>
+          <li class="hover:underline"><a href="#" class="text-white">Twitter</a></li>
+          <li class="hover:underline"><a href="#" class="text-white">Instagram</a></li>
+        </ul>
+
+        <p class="text-center">&copy; 2024 Nike, Inc. All rights reserved.</p>
+      </footer>
      </div>
 
     </div>
